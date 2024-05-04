@@ -21,9 +21,15 @@ header {
     border-radius: 50%;
     margin: 20px;
 }   
-
-h1, h2 {
+h1{
+    text-align:center;
     color: #333;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; 
+    color: #333;  
 }
 
 p {
