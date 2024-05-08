@@ -5,39 +5,54 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Header styling for h1, h2, and h3 */
+header{
+    background-color: #FFBFCB
+        padding: 20px;
+    text-align: center; 
+}
+
 h1{
     text-align:center;
     color: #333;
     padding: 20px;
+    margin: 0;
+    font-size: 48px;
 }
 
 h2{
     text-align:center;
     color: #333;
     padding: 20px;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size:36px;
 }
 
 h3{
     text-align:center;
     color: #333;
+    margin botton: 30px;
     padding: 20px;
 }
 
-
-/* Paragraph styling */
 p {
     color: #666;
     padding: 0 20px;
     line-height: 1.6; 
 }
 
+.portfolio li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:40%;
+    margin-bottom:20px;
 
-img 1{
-    display: block; 
-    margin: 10px auto; 
-    max-width: 100%;
+portfolio img{
+    wisth:100%;
+    max-width:400px;
     height: auto;
+    margin-bottom:20px
 }
 
 img 2{
@@ -47,69 +62,11 @@ img 2{
     height: auto;
 }
 
-img 3{
-    display: block; 
-    margin: 10px auto;
-    max-width: 100%; 
-    height: auto;
+.work-title{
+    font-size:38px;
+    font-weight:bold;
+    text-align:center;
 }
 
-img 4{
-    display: block; 
-    margin: 10px auto;
-    max-width: 100%; 
-    height: auto;
-}
 
-img 5{
-    display: block; 
-    margin: 10px auto;
-    max-width: 100%; 
-    height: auto;
-}
-
-img 6{
-    display: block; 
-    margin: 10px auto;
-    max-width: 100%; 
-    height: auto;
-}
-
-img 7{
-    display: block; 
-    margin: 10px auto;
-    max-width: 100%; 
-    height: auto;
-}
-
-ol {
-    margin: 0;
-    padding: 0 20px; }
-
-ul{
-    margin: 0;
-    padding: 0 20px; }
-
-
-/* List item (li) styling */
-li {
-    margin-bottom: 5px; }
-
-/* Bold and italic text styling */
-strong, b {
-    font-weight: bold; 
-}
-
-em, i {
-    font-style: italic; 
-}
-
-/* Additional styles for interactive elements */
-a {
-    color: #0066cc; 
-    text-decoration: none; 
-}
-
-a:hover {
-    text-decoration: underline; 
-}
+ 
